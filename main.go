@@ -23,7 +23,7 @@ import (
 const (
 	INPUT_FILENAME  = "triangles-nbot-in.png"
 	OUTPUT_FILENAME = "triangles-nbot-out.png"
-	RELAY_URL       = "wss://atlas.nostr.land"
+	RELAY_URL       = "wss://nostr.wine"
 )
 
 var s Settings
