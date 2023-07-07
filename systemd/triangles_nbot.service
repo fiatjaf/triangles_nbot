@@ -1,0 +1,11 @@
+[Unit]
+Description=triangles_nbot
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/executable/triangles_nbot
+Environment=UNSPLASH_CLIENT_ID= SECRET_KEY=
+
+[Install]
+WantedBy=default.target

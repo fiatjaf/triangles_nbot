@@ -1,0 +1,9 @@
+[Unit]
+Description=run triangles_nbot every 6 hours
+
+[Timer]
+OnCalendar=*:0/6:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
